@@ -16,7 +16,7 @@ var admin_id = key
 if(user.telegramid!=admin_id){return}
 
 var option = {reply_to_message_id: options.message_id}
-Bot.sendMessageToChatWithId(options.userId,"Respuesta del administrador:\n\n`" + message+"`", option)
+Bot.sendMessageToChatWithId(options.userId,"📩Respuesta del administrador:\n\n`" + message+"`", option)
 
 Bot.sendMessage("El mensaje ha sido enviado a " + options.user_link)
 

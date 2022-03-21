@@ -30,7 +30,7 @@ if (referrer) {
   referrerRes.add(bonus)
   var refcom = Libs.ResourcesLib.anotherUserRes("refcom", referrer.telegramid)
   refcom.add(bonus)
-  Bot.sendMessageToChatWithId(referrer.telegramid, "*🎁 Felicidades ha recibido 0.05 DGB por su referido*")
+  Bot.sendMessageToChatWithId(referrer.telegramid, "*🎁 Felicidades, ha recibido 0.05 DGB por su referido*")
 } else {
   Bot.sendMessage()
 }

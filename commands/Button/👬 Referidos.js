@@ -22,15 +22,11 @@ Bot.sendMessage("*🛑 El bot está desactivado actualmente*");
 
 
 let res = Libs.ResourcesLib.userRes("referral");
-let reflink=Libs.ReferralLib.currentUser.getRefLink("CryptoMundoBTT_bot","12");
+let reflink=Libs.ReferralLib.currentUser.getRefLink("CryptoPayFaucetBot","12");
 let lib = Libs.ReferralLib
 var refList = lib.currentUser.refList.get();
-Api.sendPhoto({
-photo:"https://gama-sa.com/wp-content/uploads/2018/11/refe-logo.png",
-caption:"🏠 Bienvenido a la sección de referidos de @"+bot.name+""
-})
 var key = [[{title:"👤 Informe detallado",command:"/detref"}]]
 
-Bot.sendInlineKeyboard(key,"*Por cada referido gana: 2 BTT\n\nTotal invitados: "+refList.length+" Usuarios\n\n*Link de Referido ⬇️*\n"+reflink+"*")
+Bot.sendInlineKeyboard(key,"*Por cada referido gana: 0.05 DGB\n\nTotal invitados: "+refList.length+" Usuarios\n\n*Link de Referido ⬇️*\n"+reflink+"*")
 
 }

@@ -32,7 +32,7 @@ Bot.sendMessageToChatWithId(refUser.chatId, "*🏧 ¡Nuevo referido!\n\n¡Espere
 }
 
 function doAlreadyAttracted(){
-  Bot.sendMessage("*Ya inicio este bot no puede usar otro enlace de referido ❌*");
+  Bot.sendMessage("*Ya inició este bot no puede usar otro enlace de referido ❌*");
 }
 
 var trackOptions = {

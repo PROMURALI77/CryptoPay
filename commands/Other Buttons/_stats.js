@@ -12,4 +12,4 @@ CMD*/
 var userPayment = Libs.ResourcesLib.anotherChatRes("userpayment", "global")
   let tota = Libs.ResourcesLib.anotherChatRes("tota", "global")
 
-Bot.sendMessage("*📊 Usuarios Totales:* `"+tota.value().toFixed() + "`\n\n*🔻Total Retirado:\n* `"+userPayment.value()+ "` *DGB*")
+Bot.sendMessage("*📊 Usuarios Totales:* `"+tota.value().toFixed() + "`\n\n*🔻Total Retirado:\n* `"+userPayment.value()+ " DGB`")

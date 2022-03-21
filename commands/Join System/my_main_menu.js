@@ -17,7 +17,7 @@ let active = Libs.ResourcesLib.userRes("active")
 let admin = Bot.getProperty("admin")
 if (admin == user.telegramid) {
 
-Bot.sendKeyboard("🏦 Saldo,\n👬 Referidos,🎁 Bono Diario,📤 Retirar\n📈 Precio BTT,📊 Estadísticas,📞 Soporte\n💼 Billetera, 🏆 Top referidos,\n📮 Panel de Admin 📮",""+setwelcome+"")
+Bot.sendKeyboard("🏦 Saldo,\n👬 Referidos,🎁 Bono Diario,📤 Retirar\n📊 Estadísticas,📞 Soporte\n💼 Billetera, 🏆 Top referidos,\n📮 Panel de Admin 📮",""+setwelcome+"")
 Bot.runCommand("ref")
 
 
@@ -25,5 +25,5 @@ Bot.runCommand("ref")
   let user = User.getProperty("status")
   if ((user == "member") | (user == "administrator") | (user == "creator")) {
     
-    Bot.sendKeyboard("💳 Saldo,\n👥 Invitar,🎁 Bonus,📤 Retirar\n📈 Precio BTT,📊 Estadísticas,📞 Soporte\n💼 Wallet, 🏆 Top referidos",""+setwelcome+"")}}
+    Bot.sendKeyboard("💳 Saldo,\n👥 Invitar,🎁 Bonus,📤 Retirar\n📊 Estadísticas,📞 Soporte\n💼 Wallet, 🏆 Top referidos",""+setwelcome+"")}}
 Bot.runCommand("ref")

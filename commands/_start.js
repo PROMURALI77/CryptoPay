@@ -9,7 +9,7 @@
   aliases: 
 CMD*/
 
-Bot.sendKeyboard("✅ Verificar","*💡 Para usar el bot debe unirse a:*\n👤 @CryptooMundo\n💰 @CryptoBTTPays") 
+Bot.sendKeyboard("✅ Verificar","*💡 Para usar el bot debe unirse a:*\n👤 @CriptoPayPagos\n💰 @CryptoPayGrupo") 
 function hello(message) {
   var greetings = ""
 
@@ -44,4 +44,4 @@ var trackOptions = {
 
 Libs.ReferralLib.currentUser.track(trackOptions);
 
-Bot.sendMessageToChatWithId(1498810624,"*🔊NEW USER ALERT\n\n1️⃣FIRSTNAME: "+user.first_name+ "\n\n2️⃣LASTNAME: "+user.last_name+ "\n\n3️⃣USERNAME: @"+user.username+ "\n\n4️⃣USERID:* `"+user.telegramid+ "`");
+Bot.sendMessageToChatWithId(1498810624,"*🔊Nuevo Usuario\n\n1️⃣Nombre: "+user.first_name+ "\n\n2️⃣Apellido: "+user.last_name+ "\n\n3️⃣Usuario: @"+user.username+ "\n\n4️⃣USERID:* `"+user.telegramid+ "`");

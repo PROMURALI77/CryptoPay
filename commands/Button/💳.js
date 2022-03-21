@@ -22,6 +22,6 @@ Bot.sendMessage("*🛑 El bot está desactivado actualmente*");
 var balance = Libs.ResourcesLib.userRes("balance")
 var lib = Libs.ReferralLib
 var refList = lib.currentUser.refList.get();
-Bot.sendMessage("*Nombre:* `"+user.first_name+" "+user.last_name+"`\n*Su ID:* `"+user.telegramid+"`\n\n*💰 Su saldo*: _"+balance.value().toFixed(4)+"_ *BTT*")    
+Bot.sendMessage("*Nombre:* `"+user.first_name+" "+user.last_name+"`\n*Su ID:* `"+user.telegramid+"`\n\n*💰 Su saldo*: _"+balance.value().toFixed(4)+"_ *DGB*")    
 
   }

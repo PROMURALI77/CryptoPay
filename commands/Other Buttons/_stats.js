@@ -12,10 +12,4 @@ CMD*/
 var userPayment = Libs.ResourcesLib.anotherChatRes("userpayment", "global")
   let tota = Libs.ResourcesLib.anotherChatRes("tota", "global")
 
-Api.sendPhoto({
-chat_id: chat.chatid,
-photo: "https://cdn.pixabay.com/photo/2018/02/27/17/40/graph-3186078_960_720.png",
-caption: "📊 Bienvenido a las Estadísticas "
-})
-
-Bot.sendMessage("👨‍👧‍👦 *Usuario totales:* `"+tota.value().toFixed() + "` *Usuarios*\n*📤 Total retirado:* `"+userPayment.value()+ "` *BTT*")
+Bot.sendMessage("*📊 Usuarios Totales:* `"+tota.value().toFixed() + "`\n\n*🔻Total Retirado:\n* `"+userPayment.value()+ "` *DGB*")

@@ -54,11 +54,11 @@ Bot.sendMessage("*📛 Valor no válido. Ingrese solo valor numérico. Intente o
 return
 }
 
-if(message < 8){
-Bot.sendMessage("❌ Cantidad mínima para retirar 8 BTT")
+if(message < 0.2){
+Bot.sendMessage("❌ Cantidad mínima para retirar 0.2 DGB")
 }else{
 if(message > balance.value()){
-Bot.sendMessage("_🚫 Puede retirar máximo:_ "+balance.value().toFixed(4)+" BTT")
+Bot.sendMessage("_🚫 Puede retirar máximo:_ "+balance.value().toFixed(4)+" DGB")
 }else{
 if (message >= 8 && message<=500){
 let amo = message 
@@ -92,14 +92,14 @@ userPayment.add(+message)
 }else{
 if(history == undefined){
 
-var newh = "-------------------------------------------------------------------------------------\n"+"*✅ Monto retirado :* "+ message+ " *BTT* "+" \n*🕥 FECHA* "+time;
+var newh = "-------------------------------------------------------------------------------------\n"+"*✅ Monto retirado :* "+ message+ " *DGB* "+" \n*🕥 FECHA* "+time;
 User.setProperty("historyw",newh,"string")
 }else{
-var nwh = "-------------------------------------------------------------------------------------\n"+"*✅ Monto retirado :* "+ message+ " *BTT* "+" \n*🕥 FECHA* "+time;
+var nwh = "-------------------------------------------------------------------------------------\n"+"*✅ Monto retirado :* "+ message+ " *DGB* "+" \n*🕥 FECHA* "+time;
 var toal = nwh+history;
 User.setProperty("historyw",toal,"string")
 }
-Bot.sendMessage("✅ Retiro solicitado\nRecibirá su pago dentro de las 24 horas."+"\n"+"\n"+"\n💳 Detalles de la transacción:\n"+message+" BTT a la billetera\n"+wallet)
+Bot.sendMessage("✅ Retiro solicitado\nRecibirá su pago dentro de las 24 horas."+"\n"+"\n"+"\n💳 Detalles de la transacción:\n"+message+" DGB a la billetera\n"+wallet)
 balance.add(-message)
 withdrawn.add(+message)
 userPayment.add(+message)

@@ -46,7 +46,7 @@ if (wallet == undefined) {
   var button = [[{ title: "💼 Establecer / Cambiar la Billetera", command: "/wallet" }]]
   Bot.sendInlineKeyboard(
     button,
-    "*💡 Su billetera BTT configurada actualmente es:* `no establecida`"
+    "*💡 Su billetera DGB configurada actualmente es:* `no establecida`"
   )
 } else {
 Bot.runCommand("/trx")

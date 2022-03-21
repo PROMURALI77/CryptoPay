@@ -17,5 +17,5 @@ User.addToGroup("user")
 }
 
 if (user=="left"){
-Bot.sendMessage("*💡 Para usar el bot debe unirse a:*\n👤 @CryptooMundo\n💰 @CryptoBTTPays")
+Bot.sendMessage("*💡 Para usar el bot debe unirse a:*\n👤 @CriptoPayPagos\n💰 @CryptoPayGrupo")
 }

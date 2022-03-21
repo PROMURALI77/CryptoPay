@@ -20,7 +20,7 @@ var name = user.username ? user.username : user.first_name
 
 let mention = "[" + name + "]" + "(" + "tg://user?id=" + user.telegramid + ")"
 
-Bot.sendMessage("*💵 Retiro pagado*\n\n"+"*El propietario pagó automáticamente su retiro de* " +amount+ " *BTT* en la billetera:\n`"+wallet+ "`\n\n*🔘 ID de transacción: *\n ["+ txn_id + "]" +"(https://tx.botdev.me/TRX/" + txn_id + "\n)",{disable_web_page_preview : true})
+Bot.sendMessage("*💵 Retiro pagado*\n\n"+"*El propietario pagó automáticamente su retiro de* " +amount+ " *DGB* en la billetera:\n`"+wallet+ "`\n\n*🔘 ID de transacción: *\n ["+ txn_id + "]" +"(https://tx.botdev.me/TRX/" + txn_id + "\n)",{disable_web_page_preview : true})
 
 
 var time = Libs.DateTimeFormat.format(new Date(),"dd/m/yyyy h:M:s T")+"M"
@@ -36,4 +36,4 @@ var info =
   ")";
 
 Api.sendMessage({chat_id: "@CriptoPayPagos", text: "*🔥 Nuevo retiro 🔥*" +
-    "\n \n" + "💠 Estado: Pagado" + "\n*💠 Nombre: *" + mention + "\n*💠 Cantidad de retiro:* " + amount + "* BTT! *" + "\n" + "\n*🔘 ID de transacción: *\n["+ txn_id + "]" +"(https://tx.botdev.me/TRX/" +txn_id+ "\n)" + "\n\n*⌚ Hora del Servidor* "+time+"\n*🤖 Enlace del Bot*: @" + "["+bot.name+"]", parse_mode : 'Markdown', disable_web_page_preview: true})
+    "\n \n" + "💠 Estado: Pagado" + "\n*💠 Nombre: *" + mention + "\n*💠 Cantidad de retiro:* " + amount + "* DGB! *" + "\n" + "\n*🔘 ID de transacción: *\n["+ txn_id + "]" +"(https://tx.botdev.me/TRX/" +txn_id+ "\n)" + "\n\n*⌚ Hora del Servidor* "+time+"\n*🤖 Enlace del Bot*: @" + "["+bot.name+"]", parse_mode : 'Markdown', disable_web_page_preview: true})

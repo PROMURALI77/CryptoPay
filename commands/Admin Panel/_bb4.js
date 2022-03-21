@@ -16,7 +16,7 @@ let tgid = User.getProperty("id")
 let res = Libs.ResourcesLib.anotherUserRes("balance", tgid)
 res.add(parseFloat(amount))
 Bot.sendMessage("*The amount " +amount+ " TRX has been added to the User ID: * "   +tgid+ " * balance*");
-Bot.sendMessageToChatWithId(tgid,"*🎁 Acaba de recibir " + amount + " BTT del Admin.*");
+Bot.sendMessageToChatWithId(tgid,"*🎁 Acaba de recibir " + amount + " DGB del Admin.*");
 }else{
 return
 }

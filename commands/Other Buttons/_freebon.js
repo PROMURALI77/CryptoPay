@@ -37,6 +37,6 @@ User.setProperty("last_run_at", Date.now(), "integer");
 let balance = Libs.ResourcesLib.userRes("balance")
 balance.add(1*+daily)
 Bot.sendMessage(
-  "🎁 *Hoy recibio\n\n"+daily+" BTT*\n\n⚜️ _Vuelva mañana e inténtelo de nuevo. Este es un bono gratis_"
+  "🎁 *Hoy recibio\n\n"+daily+" DGB*\n\n⚜️ _Vuelva mañana e inténtelo de nuevo. Este es un bono gratis_"
 )
 

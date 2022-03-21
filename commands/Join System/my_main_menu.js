@@ -17,7 +17,7 @@ let active = Libs.ResourcesLib.userRes("active")
 let admin = Bot.getProperty("admin")
 if (admin == user.telegramid) {
 
-Bot.sendKeyboard("🏦 Saldo,\n👬 Referidos,🎁 Bono Diario,📤 Retirar\n📊 Estadísticas,📞 Soporte\n💼 Billetera, 🏆 Top referidos,\n📮 Panel de Admin 📮",""+setwelcome+"")
+Bot.sendKeyboard("💳 Saldo,👥 Invitar,\n💼 Wallet,🎁 Bonus,📤 Retirar\n📊 Estadísticas,📞 Soporte,🏆 Top referidos\n📮 Panel de Admin 📮",""+setwelcome+"")
 Bot.runCommand("ref")
 
 

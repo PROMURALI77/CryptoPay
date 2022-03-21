@@ -20,8 +20,8 @@ let amount = parseFloat(message)
 let tgid = User.getProperty("id")
 let res = Libs.ResourcesLib.anotherUserRes("balance", tgid)
 res.add(parseFloat(amount))
-Bot.sendMessage("*El monto de " +amount+ " BTT ha sido eliminado del usuario ID: * "   +tgid+ " * de su balance*");
-Bot.sendMessageToChatWithId(tgid,"*⛔ Su saldo ha eliminado la cantidad de " + amount + " BTT por el admin.*");
+Bot.sendMessage("*El monto de " +amount+ " DGB ha sido eliminado del usuario ID: * "   +tgid+ " * de su balance*");
+Bot.sendMessageToChatWithId(tgid,"*⛔ Su saldo ha eliminado la cantidad de " + amount + " DGB por el admin.*");
 }else{
 return
 }

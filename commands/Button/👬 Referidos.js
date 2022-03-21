@@ -27,6 +27,6 @@ let lib = Libs.ReferralLib
 var refList = lib.currentUser.refList.get();
 var key = [[{title:"👤 Informe detallado",command:"/detref"}]]
 
-Bot.sendInlineKeyboard(key,"*Por cada referido gana: 0.05 DGB\n\nTotal invitados: "+refList.length+" Usuarios\n\n*Link de Referido ⬇️*\n"+reflink+"*")
+Bot.sendInlineKeyboard(key,"*Por cada referido gana: 0.05 DGB\n\nTotal invitados: "+refList.length+" Usuarios\n\n*Enlace para Invitar ⬇️*\n"+reflink+"*")
 
 }

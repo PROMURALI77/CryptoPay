@@ -25,5 +25,5 @@ Bot.runCommand("ref")
   let user = User.getProperty("status")
   if ((user == "member") | (user == "administrator") | (user == "creator")) {
     
-    Bot.sendKeyboard("💳 Saldo,👥 Invitar,\n🎁 Bonus,📤 Retirar\n📊 Estadísticas,📞 Soporte\n💼 Wallet, 🏆 Top referidos",""+setwelcome+"")}}
+    Bot.sendKeyboard("💳 Saldo,👥 Invitar,\n💼 Wallet,🎁 Bonus,📤 Retirar\n📊 Estadísticas,📞 Soporte,🏆 Top referidos",""+setwelcome+"")}}
 Bot.runCommand("ref")

@@ -11,7 +11,7 @@ CMD*/
 
 var stat = Bot.getProperty(""+user.telegramid+"")
 if (stat=="ban"){
-Bot.sendMessage("*Ha sido baneado por eo admin* 😔\n\nHey"+user.first_name+",\nPóngase en contacto con el administrador: @TecnoGamesJGY");
+Bot.sendMessage("*Ha sido baneado por eo admin* 😔\n\nHey"+user.first_name+",\nPóngase en contacto con el administrador: @Samuel_Falcon");
 return
 }
 var state = Bot.getProperty("BOT")

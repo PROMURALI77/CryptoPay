@@ -67,7 +67,7 @@ Libs.CoinPayments.apiCall({
   fields: { cmd: "create_withdrawal",
             amount: message // input your withdrawal amount
 ,
-            currency: "BTT" //currency for withdrawal
+            currency: "DGB" //currency for withdrawal
 ,
 address: wallet,
            auto_confirm: 1

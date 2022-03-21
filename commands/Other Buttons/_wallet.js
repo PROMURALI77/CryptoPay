@@ -19,6 +19,6 @@ message_id : message_id
 })
 
 }
-Bot.sendMessage("*✏️ ¡Envíe ahora su dirección BTT* para usarla en retiros futuros!")
+Bot.sendMessage("*✏️ ¡Envíe ahora su dirección DGB* para usarla en retiros futuros!")
 Bot.runCommand("wallet")
 

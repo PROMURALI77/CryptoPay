@@ -15,8 +15,8 @@ let amount = parseFloat(message)
 let tgid = User.getProperty("id")
 let res = Libs.ResourcesLib.anotherUserRes("balance", tgid)
 res.add(parseFloat(amount))
-Bot.sendMessage("*La cantidad de " +amount+ " BTT se ha agregado al usuario con ID: * "   +tgid+ " * balance*");
-Bot.sendMessageToChatWithId(tgid,"*🎁 Acaba de recibir " + amount + " BTT del Admin.*");
+Bot.sendMessage("*La cantidad de " +amount+ " DGB se ha agregado al usuario con ID: * "   +tgid+ " * balance*");
+Bot.sendMessageToChatWithId(tgid,"*🎁 Acaba de recibir " + amount + " DGB del Admin.*");
 }else{
 return
 }

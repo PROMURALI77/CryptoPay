@@ -1,5 +1,5 @@
 /*CMD
-  command: 💼 Billetera
+  command: 💼 Wallet
   help: 
   need_reply: 
   auto_retry_time: 
@@ -11,7 +11,7 @@ CMD*/
 
 var stat = Bot.getProperty(""+user.telegramid+"")
 if (stat=="ban"){
-Bot.sendMessage("*Ha sido baneado pornel admin* 😔\n\nHey"+user.first_name+",\nPóngase en contacto con el administrador: @Samuel_Falcon");
+Bot.sendMessage("*Ha sido baneado por el admin* 😔\n\nHey"+user.first_name+",\nPóngase en contacto con el administrador: @Samuel_Falcon");
 return
 }
 var state = Bot.getProperty("BOT")

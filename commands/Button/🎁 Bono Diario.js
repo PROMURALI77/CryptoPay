@@ -1,5 +1,5 @@
 /*CMD
-  command: 🎁 Bono Diario
+  command: 🎁 Bonus
   help: 
   need_reply: 
   auto_retry_time: 

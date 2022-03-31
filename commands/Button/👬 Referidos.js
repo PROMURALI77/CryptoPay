@@ -1,5 +1,5 @@
 /*CMD
-  command: 👬 Referidos
+  command: 👥 Invitar
   help: 
   need_reply: 
   auto_retry_time: 
